@@ -3,7 +3,7 @@
 <h3>Register Number : 212222110018 </h3>
 <H3>Aim:</H3>
 <p>To ImplementA * Search algorithm for a Graph using Python 3.</p>
-<H3>Algorithm:</H3>
+<H3>Algorithm:</H3><h1>
 
 1.  Initialize the open list
 
@@ -50,8 +50,7 @@
 
 <h2>Program: </h2>
 
-python
-```
+```python
 from collections import defaultdict
 H_dist ={}
 def aStarAlgo(start_node, stop_node):
@@ -125,8 +124,7 @@ def heuristic(n):
     return H_dist[n]
 ```
 
-python
-```
+```python
 
 #Describe your graph here
 '''Graph_nodes = {
@@ -140,7 +138,7 @@ python
     'H': [('F', 7), ('I', 2)],
     'I': [('E', 5), ('G', 3), ('H', 2), ('J', 3)],
 }
-```
+'''
 graph = defaultdict(list)
 n,e = map(int,input().split())
 for i in range(e):
