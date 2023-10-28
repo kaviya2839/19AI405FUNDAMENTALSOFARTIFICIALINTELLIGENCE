@@ -50,7 +50,8 @@
 
 <h2>Program: </h2>
 
-```python
+python
+```
 from collections import defaultdict
 H_dist ={}
 def aStarAlgo(start_node, stop_node):
@@ -124,7 +125,8 @@ def heuristic(n):
     return H_dist[n]
 ```
 
-```python
+python
+```
 
 #Describe your graph here
 '''Graph_nodes = {
@@ -138,7 +140,7 @@ def heuristic(n):
     'H': [('F', 7), ('I', 2)],
     'I': [('E', 5), ('G', 3), ('H', 2), ('J', 3)],
 }
-'''
+```
 graph = defaultdict(list)
 n,e = map(int,input().split())
 for i in range(e):
@@ -187,3 +189,6 @@ G 0 <br>
 Path found: ['A', 'E', 'D', 'G']
 
 ![3 A](https://github.com/Leann4468/19AI405FUNDAMENTALSOFARTIFICIALINTELLIGENCE/assets/121165979/ff86f2b7-4940-4ce9-b1b4-6bbd56a58b5c)
+
+## RESULT 
+thus a Graph was construted and Implement A* search algorithm for a Graph was done succcessfully
