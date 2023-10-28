@@ -1,5 +1,5 @@
 <h1>ExpNo 1 : Implement Depth First Search Traversal of a Graph</h1> 
-<h3>Name: KAVIYA SHREE S V</h3>
+<h3>Name: KAVIYA SHREE S </h3>
 <h3>Register Number :212222110018 </h3>
 <H3>Aim:</H3>
 <p> To Implement Depth First Search Traversal of a Graph using Python 3.</p>
@@ -55,8 +55,8 @@ Now, the Stack becomes empty, which means we have visited all the nodes, and our
 </ol></B>
 ### Program 
 ```
-Developed By Manoj Choudhary V
-Reg No:212221240025
+Developed By kaviya shree
+Reg No:212222110018
 #import defaultdict
 from collections import defaultdict
 def dfs(graph,start,visited,path):
